@@ -1,0 +1,5 @@
+C:\Windows\System32\cmd.exe /min /C "set __COMPAT_LAYER=RUNASINVOKER && start "" "C:\Program Files (x86)\PastaArquivo\Arquivo.exe""
+
+Esse comando executa o programa Arquivo.exe localizado na pasta C:\Program Files (x86)\PastaArquivo, forçando-o a rodar sem permissões elevadas (sem ser executado como administrador). A janela do Prompt de Comando é minimizada durante a execução, e o terminal é fechado logo após o comando ser executado.
+
+O uso de RUNASINVOKER é útil em casos onde você deseja impedir que o programa solicite permissões de administrador, mesmo que normalmente o faria.
