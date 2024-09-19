@@ -1,0 +1,1 @@
+# .bat-Para-executar-sem-permiss-o-Adm
